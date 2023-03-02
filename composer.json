@@ -1,0 +1,25 @@
+{
+    "name": "kaplunova/meta",
+    "description": "test package",
+    "authors": [
+        {
+            "name": "kaplunova email"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Kaplunova\\Meta\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kaplunova\\Meta\\MetaProvider"
+            ]
+        },
+        "aliases": {
+            "Meta": "Kaplunova\\Meta\\Meta"
+        }
+    }
+}
